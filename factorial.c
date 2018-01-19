@@ -1,24 +1,18 @@
-#include <stdio.h>
-int main()
+#include<stdio.h>
+int factorial(int n);
+void main()
+
 {
-    int k,i;
-    unsigned long long factorial = 1;
-
-    printf("Enter an integer: ");
-    scanf("%d",&k);
-
-    // show error if the user enters a negative integer
-    if (k< 0)
-        printf("Error! Factorial of a negative number doesn't exist.");
-
-    else
-    {
-        for(i=1; i<=k; ++i)
-        {
-            factorial *= i;              
-        }
-        printf("Factorial of %d = %llu", n, factorial);
-    }
-
-    return 0;
+int m,f;
+printf("Enter the number:");
+scanf("%d",&m);
+f=factorial(m);
+printf("The factorial of anumberis %d",f);
+}
+int factorial(int m)
+{
+if(m==0)
+return 1;
+else
+return m*factorial(m-1);
 }
