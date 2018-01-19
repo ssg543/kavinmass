@@ -3,18 +3,18 @@
  int main()
  {
    char str[100], temp;
-   int i,j=0;
+   int n,m=0;
    printf("\nEnter the string :");
    gets(str);
-  i=0;
-   j=strlen(str)-1;
- while(i<j) 
+  n=0;
+   m=strlen(str)-1;
+ while(n<m) 
    {
-      temp=str[i];
-      str[i]=str[j];
-      str[j]=temp;
-      i++;
-      j--;
+      temp=str[n];
+      str[n]=str[m];
+      str[m]=temp;
+      n++;
+      m--;
    }
  printf("\nReverse string is :%s",str);
  return (0);
