@@ -9,7 +9,7 @@ scanf("%d",&a);
 printf("Enter the value of different");
 scanf("%d",&d);
 l=(m*d)+a-1;
-sum=((a+1)+m)/;
+sum=((a+L)+m)/;
 printf("sum is %d",sum);
 return 0;
 }
