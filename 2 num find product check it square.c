@@ -10,10 +10,10 @@ int main(void)
     {
         if (m == i * i)
         {
-            printf("YES");
+            printf("\nYES");
             return 0;
         }
     }
-    printf("NO");
+    printf("\nNO");
     return 0;
 }
