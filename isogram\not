@@ -2,13 +2,13 @@
 void main()
 {
 	char b[500];
-	int i,j,l,count=0;
+	int i,j,m,count=0;
 	printf("Enter the String:");
 	scanf("%s",b);
-	l=strlen(b);
-	for(i=0;i<l;i++)
+	m=strlen(b);
+	for(i=0;i<m;i++)
 	{
-		for(j=i+1;j<=l;j++)
+		for(j=i+1;j<=m;j++)
 		{
 			if(b[i]==b[j])
 			{
