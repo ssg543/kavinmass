@@ -1,16 +1,16 @@
 #include<string.h>
 void main()
 {
-	char a[500];
+	char b[500];
 	int i,j,l,count=0;
 	printf("Enter the String:");
-	scanf("%s",a);
-	l=strlen(a);
+	scanf("%s",b);
+	l=strlen(b);
 	for(i=0;i<l;i++)
 	{
 		for(j=i+1;j<=l;j++)
 		{
-			if(a[i]==a[j])
+			if(b[i]==b[j])
 			{
 				count++;
 			}
